@@ -81,6 +81,27 @@ a:hover {
   width: 50%;
   height: 40%;
 }
+.about {
+  display: flex;
+  text-align: center;
+}
+.diet {
+  text-align: center;
+}
+.learnmore {
+  background-color: skyblue;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: black;
+}
+.learnmore:hover {
+  background-color: black;
+  color: skyblue;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

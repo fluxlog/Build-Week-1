@@ -15,3 +15,21 @@
         color:@bg-colour;
       }
 }
+
+
+.lern(@bg-colour: @titlecolor, @width: 200px, @font-colour: black){
+ 
+  background-color: @bg-colour;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: @width;
+  height: 45px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color:@font-colour;
+  
+  &:hover{
+    background-color:@font-colour;
+    color:@bg-colour;
+  }
+}
