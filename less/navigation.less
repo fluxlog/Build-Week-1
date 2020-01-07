@@ -1,0 +1,25 @@
+.links {
+background-color: @navcolor;
+height: 15vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-size: 1.5rem;
+border-radius: 5px;
+@media @phone {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+    text-decoration: underline;
+    
+    color: black;
+}
+}
+
