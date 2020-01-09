@@ -20,7 +20,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: violet;
 }
 .titles {
   height: 50vh;
@@ -178,4 +178,45 @@ img {
     width: 70%;
     padding: 30px;
   }
+}
+.diets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dietimgs {
+  display: flex;
+  justify-content: center;
+}
+.dietimgs img {
+  width: 80%;
+  border-radius: 10px;
+}
+.section-container {
+  border: 2px solid lightskyblue;
+  margin: 25px 15px 20px 10px;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+@media ( max-width: 500px ) {
+  .section-container {
+    width: 100%;
+    border: none;
+  }
+}
+@media ( max-width: 800px ) {
+  .section-container {
+    width: 80%;
+    border: none;
+  }
+}
+.h2sup {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
 }
