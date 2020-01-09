@@ -31,6 +31,11 @@ a:hover {
   border-radius: 5px;
   background-color: skyblue;
 }
+@media ( max-width: 500px ) {
+  .titles {
+    height: 60vh;
+  }
+}
 .titles .buttons {
   display: flex;
   justify-content: space-between;
@@ -78,8 +83,8 @@ a:hover {
 }
 .main .img-container img {
   border-radius: 10px;
-  width: 50%;
-  height: 40%;
+  width: 40%;
+  height: 30%;
 }
 .about {
   display: flex;
@@ -113,11 +118,25 @@ footer {
   align-items: center;
 }
 .mainabout {
-  height: 360vh;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media ( max-width: 500px ) {
+  .mainabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media ( max-width: 800px ) {
   .mainabout {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 img {
@@ -139,9 +158,24 @@ img {
   }
 }
 .team {
+  width: 40%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  align-content: center;
+}
+@media ( max-width: 500px ) {
+  .team {
+    height: 40%;
+    width: 70%;
+    padding: 30px;
+  }
+}
+@media ( max-width: 800px ) {
+  .team {
+    height: 40%;
+    width: 70%;
+    padding: 30px;
+  }
 }
